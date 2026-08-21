@@ -869,4 +869,4 @@ the belts preview in the editor through the same runtime subsystem that ships.
 Verified with `RunUAT BuildPlugin` for Editor Development, Game Development and Game Shipping, with
 adaptive unity disabled so every translation unit is compiled on its own.
 
-Copyright 2026 Simulated Flow. All Rights Reserved.
+Copyright 2026 Silvan Teufel. All Rights Reserved.

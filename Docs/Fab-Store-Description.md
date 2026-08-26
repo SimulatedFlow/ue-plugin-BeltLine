@@ -130,7 +130,7 @@ your item system; what it is *for* belongs to your game.
 - **Classes:** `ABeltActor`, `ABeltNode`, `UBeltItemType`, `UBeltSubsystem`, `UBeltStatics`,
   `UBeltSettings`, `ABeltHUD`
 - **Supported engine:** 5.8
-- **Platforms:** Win64 built and verified. Mac and Linux enabled but not built — the plugin contains
+- **Platforms:** Win64 built and verified. Mac and Linux not listed in the descriptor and not built — the plugin contains
   no platform-specific code.
 - **Network replicated:** No
 - **Documentation:** included (`Docs/DOCUMENTATION.md`), plus a README with a quick start

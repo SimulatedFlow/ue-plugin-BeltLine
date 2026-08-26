@@ -32,8 +32,8 @@ Plugin version 1.0.0 · one runtime module, `BeltLine`, loading phase `PreDefaul
 |---|---|
 | **Engine version** | Unreal Engine **5.8** |
 | **Project type** | C++ **or** Blueprint-only. The plugin ships precompiled; a Blueprint-only project needs no compiler to *use* it. To call the C++ API directly (section 9) the project must be a C++ project. |
-| **Supported target platforms** | `Win64`, `Mac`, `Linux` — the `PlatformAllowList` in `BeltLine.uplugin` |
-| **Build-verified on** | **Win64 only.** Mac and Linux are enabled and contain no platform-specific code, but have not been built or run. Treat them as untested. |
+| **Supported target platforms** | `Win64` — the `PlatformAllowList` in `BeltLine.uplugin` |
+| **Build-verified on** | **Win64 only.** Mac and Linux are not listed in the descriptor. The code contains nothing platform-specific, but they have not been built or run. Treat them as untested. |
 | **Configurations** | Editor Development, Game Development and Game **Shipping**. The statistics box is a real Canvas overlay, not a `DrawDebug` call, so it survives a cooked Shipping build. |
 | **Module dependencies** | `Core`, `CoreUObject`, `Engine`, `DeveloperSettings` (public) and `RenderCore` (private, for the statistics box background texture) |
 | **Plugin dependencies** | None. No other Marketplace/Fab plugin is required. |
@@ -845,7 +845,7 @@ without touching the config.
   the belt with `Try Take Item` and spawn a real actor if a project needs one.
 - **A belt is one-way.** Negative speed is clamped to zero rather than reversed; reversing would make
   the queue ordering — which is what the entire movement pass relies on — run the other way.
-- **Mac and Linux are enabled but untested.** The plugin uses no platform-specific code; only Win64
+- **Mac and Linux are not listed in the descriptor and untested.** The plugin uses no platform-specific code; only Win64
   has actually been built and run.
 
 ---

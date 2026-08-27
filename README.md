@@ -87,6 +87,11 @@ What a thing *is* belongs to your item system; what it is *for* belongs to your 
 
 Requires Unreal Engine **5.8**. Built and verified on Win64; Mac and Linux are not listed in the descriptor and untested.
 
+## Documentation
+
+Online, free and without an account: <https://wiki.teufel-engineering.com/en/BeltLine/documentation> — installation, quick start and the full API.
+The same manual ships with the plugin under `Docs/`.
+
 <!-- SF-STORE-BLOCK:BEGIN -->
 ## 🛒 Source-available — see before you buy
 

@@ -89,7 +89,7 @@ Requires Unreal Engine **5.8**. Built and verified on Win64; Mac and Linux are n
 
 ## Documentation
 
-Online, free and without an account: <https://github.com/SimulatedFlow/documentation> — installation, quick start and the full API.
+Online, free and without an account: <https://wiki.teufel-engineering.com/en/BeltLine/documentation> — installation, quick start and the full API.
 The same manual ships with the plugin under `Docs/`.
 
 <!-- SF-STORE-BLOCK:BEGIN -->
